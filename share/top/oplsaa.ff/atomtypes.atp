@@ -829,3 +829,57 @@
 ; tip4p-EW
 HW_tip4pew   1.008 
 OW_tip4pew   16.00 
+
+[ PEB ]
+[ PEB ]
+[ atoms ]
+C1 opls_135 -0.180 1
+H11 opls_140 0.060 1
+H12 opls_140 0.060 1
+H13 opls_140 0.060 1
+C2 opls_136 -0.120 2
+H21 opls_140 0.060 2
+H22 opsl_140 0.060 2
+[ bonds]
+C1 C2
+C1 H11
+C1 H12
+C1 H13
+C2 H21
+C2 H22
+C2 +C1
+
+[ PEM ]
+[ atoms ]
+C1 opls_136 -0.120 1
+H11 opls_140 0.060 1
+H12 opls_140 0.060 1
+C2 opls_136 -0.120 2
+H21 opls_140 0.060 2
+H22 opls_140 0.060 2
+[ bonds ]
+C1 -C2
+C1 H11
+C1 H12
+C1 C2
+C2 H21
+C2 H22
+C2 +C1
+
+[ PET ]
+[ atoms ]
+C1 opls_136 -0.120 1
+H11 opls_140 0.060 1
+H12 opls_140 0.060 1
+C2 opls_135 -0.180 2
+H21 opls_140 0.060 2
+H22 opls_140 0.060 2
+H23 opls_140 0.060 2
+[ bonds ]
+C1 -C2
+C1 H11
+C1 H12
+C1 C2
+C2 H21
+C2 H22
+C2 H23
